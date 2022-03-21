@@ -1,0 +1,34 @@
+header {
+    height: 130px;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.headerli {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.searchbar {
+   
+}
+
+.addsites {
+    height: 30px;
+    background-color: dodgerblue;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url("resources/images/jumbotron.jpg");
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
