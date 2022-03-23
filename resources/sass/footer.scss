@@ -20,13 +20,18 @@ padding: 2%;
 
 .signup {
     height: 70px;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.889);
     display: flex;
     justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .sign {
     vertical-align: center;
-    height: auto;
+    height: 40px;
+    width: 60px;
+    border-radius: 9px;
 }
 

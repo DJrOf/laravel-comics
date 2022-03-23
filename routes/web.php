@@ -25,3 +25,16 @@ Route::get('/', function () {
 })->name('home');
 
 
+
+Route::get('home/comics/{id}', function ($id) {
+
+   
+
+    $comics = config('comics', array());
+   
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
+})->name('comics');
+
+

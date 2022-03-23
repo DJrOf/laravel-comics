@@ -13,11 +13,14 @@
         <div class="cardcont">
            
             
-            @foreach($comics as $comic)
+            @forelse($comics as $index => $comic)
             
                 <div class="card"> 
                     <div class="coverimg">
-                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <a href="{{ route("comics", $index) }}"> 
+                            <img src="{{ $comic['thumb'] }}" alt="">
+                        </a>
+                        
                     </div>
                    <h2>{{ $comic['title'] }}</h2>  
                 </div>
