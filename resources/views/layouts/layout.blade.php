@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DC Comics</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
     <body>
@@ -14,6 +17,8 @@
 
         <main>
             @yield('content')
+
+           
 
         </main>
 

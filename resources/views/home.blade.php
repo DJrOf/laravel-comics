@@ -6,24 +6,27 @@
 
 <div class="series">
     <div class="currseries">
-        <h2 class="h2series" >Current series</h2>
+        <h2 class="h2series">Current series</h2>
         
 
 
         <div class="cardcont">
-             <?php 
-            // public function getJsonSchema($series)
-            // {
-            //     return  'config\\series\\'.config($series); 
-            // }
-           
-            ?>
-           
-            <div class="card">
-                 {{-- @foreach ($series as $serie)
-             <span> {{ $serie }}</span>
-         @endforeach --}}
+            {{-- 7
+            
+            @foreach($comics as $key => $val)
+            
+                <div class="card"> 
+                    {{ $comic['title'] }} 
+                </div>
+                
+              @endforeach --}}
             </div>
+        
+
+            {{-- <div class="card">
+                <h1>title</h1>
+            </div> --}}
+           
         </div>
 
     </div>

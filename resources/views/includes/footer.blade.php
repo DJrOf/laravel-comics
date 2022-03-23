@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="subcont">
                     <ul class="footerul">
-                        <li id="footerli" ><h2>DC COMICS</h2></li>
+                        <li id="footerli"><h2>DC COMICS</h2></li>
                         <li id="footerli" >CHARACTERS</li>
                         <li id="footerli">COMICS</li>
                         <li id="footerli">MOVIES</li>
