@@ -7,19 +7,22 @@
 <div class="series">
     <div class="currseries">
         <h2 class="h2series">Current series</h2>
-        
+    </div>    
 
 
         <div class="cardcont">
-            {{-- 7
+           
             
-            @foreach($comics as $key => $val)
+            @foreach($comics as $comic)
             
                 <div class="card"> 
-                    {{ $comic['title'] }} 
+                    <div class="coverimg">
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                    </div>
+                   <h2>{{ $comic['title'] }}</h2>  
                 </div>
                 
-              @endforeach --}}
+              @endforeach 
             </div>
         
 
@@ -27,7 +30,7 @@
                 <h1>title</h1>
             </div> --}}
            
-        </div>
+        
 
     </div>
 </div>

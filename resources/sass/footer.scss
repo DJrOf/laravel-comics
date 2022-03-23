@@ -1,13 +1,13 @@
 .footerul {
     float: left;
     list-style: none;   
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 footer {
     height: 370px;
     background-color: green;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 .links {
@@ -21,6 +21,12 @@ padding: 2%;
 .signup {
     height: 70px;
     background-color: grey;
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign {
+    vertical-align: center;
+    height: auto;
 }
 

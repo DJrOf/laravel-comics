@@ -54,7 +54,22 @@
            
 
         </div>
-        <div class="signup"></div>
+        <div class="signup">
+                <button class="sign" >Sign Up</button>
+        
+
+            <div class="followus">
+                <ul class="footerul">
+                    <li class="mainli"><h2>FOLLOW US</h2></li>
+                    <li class="mainli">FB</li>
+                    <li class="mainli">TW</li>
+                    <li class="mainli">YT</li>
+                    <li class="mainli">PNTR</li>
+                    <li class="mainli">GEO</li>
+                </ul>
+            </div>
+
+        </div>
         
         </footer>
 

@@ -15,17 +15,19 @@
 }
 
 .jumbotron {
-    width: 100vw;
-    height: 300px;
+    max-width: 100vw;
+    height: 530px;
     background-image: url("/img/jumbotron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .series {
-    width: 100vw;
-    height: 400px;
+    max-width: 100vw;
+    height: 1000px;
     background-color: rgba(0, 0, 0, 0.861);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mainav {
@@ -37,10 +39,30 @@
     height: 40px;
     width: 250px;
     background-color: dodgerblue;
-    left: 200px;
+    left: 100px;
     margin-top: -20px;
     position: absolute;
     text-align: center;
     color: white;
     padding-bottom: 3px;
+    
+}
+
+.cardcont {
+    padding: 50px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid grey;
+    margin-right: 10px;
+    height: 170px;
+    width: 250px;
+    color: white;
+}
+
+.coverimg {
+
 }
